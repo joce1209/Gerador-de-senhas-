@@ -1,31 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Senhas</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Gerador de Senha</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <section class="conteudo">
+  <div class="parametro-senha">
+    <h4 class="parametro-senha__titulo">Número de caracteres</h4>
 
-        <div class="parametro">
+    <div class="parametro-senha-botoes">
+      <button class="parametro-senha__botao" id="menos">-</button>
 
-            <div class="parametro-coluna__senha">
+      <span class="parametro-senha__texto" id="valor">12</span>
 
-                <div class="parametro-senha">
-                    <h4 class="parametro-senha__titulo">
-                        Força da senha
-                    </h4>
-                </div>
+      <button class="parametro-senha__botao" id="mais">+</button>
+    </div>
+  </div>
 
-            </div>
-
-        </div>
-
-    </section>
-
+  <script src="script.js"></script>
 </body>
 </html>
